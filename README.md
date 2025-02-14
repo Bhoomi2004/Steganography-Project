@@ -1,16 +1,16 @@
 # Steganography-Project
 # Image Steganography Using LSB Technique
 
-A simple Python-based steganography project that hides a secret message and passcode in an image using Least-Significant-Bit (LSB) encoding, and later retrieves the message securely.
+A Python-based steganography project that hides a secret message and passcode in an image using Least-Significant-Bit (LSB) encoding, ensuring secure and undetectable data concealment.
 
 ## Overview
 
-This project uses robust LSB steganography to embed a secret message along with a passcode into an image. It consists of two Python scripts with user-friendly GUIs built using Tkinter.
+This project implements robust LSB steganography to securely embed a secret message along with a passcode into an image. It includes two Python scripts with a user-friendly GUI built using Tkinter for seamless encryption and decryption.
 
 ## Features
 
 - **Encryption:**  
-  Embeds a secret message and passcode into `mypic.jpg` and saves the result as `encrypted.png`.
+  Embeds a secret message and passcode into `mypic.png` and saves the result as `encrypted.png`.
 
 - **Decryption:**  
   Retrieves the hidden message from `encrypted.png` when the correct passcode is provided.
@@ -25,8 +25,8 @@ This project uses robust LSB steganography to embed a secret message along with 
 
 - Python 3.x  
 - OpenCV  
-- NumPy  
-- Tkinter (usually included with Python)
+- os  
+- string
 
 ## Installation
 
