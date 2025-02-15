@@ -34,4 +34,4 @@ This project implements robust LSB steganography to securely embed a secret mess
 2. Install the required libraries:
    ```bash
    pip install opencv-python numpy
-3. Place an image mypic.jpg in project directory
+3. Place an image mypic.png in project directory
